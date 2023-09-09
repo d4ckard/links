@@ -1,0 +1,26 @@
+Writing an OS in Rust
+https://os.phil-opp.com/
+Async: What is blocking?
+https://ryhl.io/blog/async-what-is-blocking/
+Common Rust Lifetime Misconceptions
+https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md#common-rust-lifetime-misconceptions
+Understanding Serde
+https://www.joshmcguigan.com/blog/understanding-serde/
+What's in the box?
+https://fasterthanli.me/articles/whats-in-the-box
+Ranges and suffering
+https://kaylynn.gay/blog/post/rust_ranges_and_suffering
+Quick tip: the #[cfg_attr] attribute
+https://chrismorgan.info/blog/rust-cfg_attr/
+Rust Design Patterns
+https://rust-unofficial.github.io/patterns/intro.html
+Writing Non-Trivial Macros in Rust
+https://adventures.michaelfbryan.com/posts/non-trivial-macros/
+A Beginner's Guide to Parsing in Rust
+https://depth-first.com/articles/2021/12/16/a-beginners-guide-to-parsing-in-rust/
+Implementing a calculator parser in Rust
+https://petermalmgren.com/three-rust-parsers/
+Pin and Suffering
+https://fasterthanli.me/articles/pin-and-suffering
+Rust Atomics and Locks
+https://marabos.nl/atomics/

@@ -1,0 +1,28 @@
+Compiler Building Tutorial
+https://www.stack.nl/~marcov/compiler.pdf
+Crafting Interpreters
+http://www.craftinginterpreters.com/contents.html
+Delimiter-first code
+https://arogozhnikov.github.io/2022/11/29/delimiter-comes-first.html
+Designing a Programming Language
+https://ducklang.org/designing-a-programming-language-i
+Parsing Expressions by Recursive Descent
+https://www.engr.mun.ca/~theo/Misc/exp_parsing.html
+Context-Free Grammars
+https://pages.cs.wisc.edu/~fischer/cs536.s08/course.hold/html/NOTES/3.CFG.html
+LR to LL Grammer Conversion
+https://www.andrews.edu/~bidwell/456/lr2llgram.html
+IParse Studio
+https://fransfaase.github.io/MCH2022ParserWorkshop/IParseStudio.html
+Why We Need to Know LR and Recursive Descent Parsing Techniques
+https://tratt.net/laurie/blog/2023/why_we_need_to_know_lr_and_recursive_descent_parsing_techniques.html
+Flattening ASTs (and Other Compiler Data Structures)
+https://www.cs.cornell.edu/~asampson/blog/flattening.html
+Lexer hack
+https://en.wikipedia.org/wiki/Lexer_hack
+C test suite
+https://github.com/c-testsuite/c-testsuite
+Context sensitivites
+https://eli.thegreenplace.net/2011/05/02/the-context-sensitivity-of-cs-grammar-revisited
+Compiler tutorial
+https://www.stack.nl/~marcov/compiler.pdf

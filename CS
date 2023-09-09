@@ -1,0 +1,36 @@
+Parsing Gigabytes of JSON per Second
+https://arxiv.org/pdf/1902.08318.pdf
+Low-Level Graphics on Linux
+http://betteros.org/tut/graphics1.php
+Practical Deep Learning
+https://course.fast.ai/
+Metaballs
+https://varun.ca/metaballs/
+Binary Search a Little Simpler & More Generic
+https://julesjacobs.com/notes/binarysearch/binarysearch.pdf
+The Little Book of Deep Learning
+https://fleuret.org/public/lbdl.pdf
+Fibonacci Hashing: The Optimization that the World Forgot (or: a Better Alternative to Integer Modulo)
+https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/
+Bitwise Binary Search: Elegant and Fast
+https://orlp.net/blog/bitwise-binary-search/
+Finally getting two's complement
+https://neugierig.org/software/blog/2023/06/twos-complement.html
+How to Keep Lambda Calculus Simple
+https://hirrolot.github.io/posts/how-to-keep-lambda-calculus-simple.html
+Differentiable Programming from Scratch
+https://thenumb.at/Autodiff/
+The magic of dependency resolution
+https://ochagavia.nl/blog/the-magic-of-dependency-resolution/
+Hash Functions
+https://papa.bretmulvey.com/post/124027987928/hash-functions
+How Query Engines Work
+https://howqueryengineswork.com/
+Algorithms and Data Structures The Basic Toolbox
+https://people.mpi-inf.mpg.de/~mehlhorn/ftp/Mehlhorn-Sanders-Toolbox.pdf
+Modern Image Processing Algorithms Overview & Implementation in C
+https://sod.pixlab.io/articles/modern-image-processing-algorithms-implementation.html
+Ask HN: AI is really exciting but where do I start?
+https://news.ycombinator.com/item?id=33369800
+Bracket pair colorization 10,000x faster
+https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization

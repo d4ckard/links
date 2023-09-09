@@ -1,0 +1,12 @@
+How to create an OS from scratch
+https://github.com/cfenollosa/os-tutorial
+Writing a Simple Operating System - from Scratch
+https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
+Writing an OS in Rust
+https://os.phil-opp.com/
+Operating Systems: Three Easy Pieces
+https://pages.cs.wisc.edu/~remzi/OSTEP/
+Printing to the Screen
+http://www.osdever.net/bkerndev/Docs/printing.html
+The little book about OS development
+http://littleosbook.github.io/
