@@ -35,13 +35,13 @@ impl std::fmt::Display for Page {
     }
 }
 
+#[derive(PartialEq)]
 enum PageBuilder {
     Empty,
     Title { title: String },
-    Full { title: String, url: String },
 }
 
-use PageBuilder::{Empty, Full, Title};
+use PageBuilder::{Empty, Title};
 
 fn main() -> Result<(), io::Error> {
     let args: Vec<String> = env::args().collect();
@@ -58,19 +58,15 @@ fn main() -> Result<(), io::Error> {
         let line = line.to_owned();
         build = match build {
             Empty => Title { title: line },
-            Title { title } => Full { title, url: line },
-            Full { title, url } => {
-                pages.push(Page { title, url });
-                Title { title: line }
+            Title { title } => {
+                pages.push(Page { title, url: line });
+                Empty
             },
         }
     }
 
-    // One page must be left in the builder after the iterator
-    // has finished.
-    if let Full { title, url } = build {
-        pages.push(Page { title, url });
-    } else {
+    // Check if last link has not been fully parsed
+    if build != Empty{
         println!("invalid links file");
         std::process::exit(2);
     }
