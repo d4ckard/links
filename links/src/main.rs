@@ -38,7 +38,7 @@ impl std::fmt::Display for Page {
 #[derive(PartialEq)]
 enum PageBuilder {
     Empty,
-    Title { title: String },
+    Title { title: String, lineno: usize },
 }
 
 use PageBuilder::{Empty, Title};
@@ -50,29 +50,39 @@ fn main() -> Result<(), io::Error> {
         std::process::exit(1);
     }
 
-    let content = read_file(&args[1])?;
-    let mut build = PageBuilder::Empty;
+    let filepath = &args[1];
+    let content = read_file(filepath)?;
+
+    let mut build = Empty;
     let mut pages: Vec<Page> = vec![];
 
-    for line in content.lines() {
+    for (idx, line) in content.lines().enumerate() {
         let line = line.to_owned();
         build = match build {
-            Empty => Title { title: line },
-            Title { title } => {
+            Empty => Title {
+                title:  line,
+                lineno: idx + 1,
+            },
+            Title { title, .. } => {
                 pages.push(Page { title, url: line });
                 Empty
             },
         }
     }
 
-    // Check if last link has not been fully parsed
-    if build != Empty{
-        println!("invalid links file");
-        std::process::exit(2);
-    }
-
-    for page in pages {
-        println!("{page}\n");
+    match build {
+        Empty => {
+            for page in pages {
+                println!("{page}\n");
+            }
+        },
+        Title { title, lineno } => {
+            eprintln!(
+                "invalid links file '{filepath}' in line {lineno}, no URL for \
+                 title '{title}'"
+            );
+            std::process::exit(2);
+        },
     }
 
     Ok(())
