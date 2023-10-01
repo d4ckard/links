@@ -22,3 +22,7 @@ Hash Function
 http://www.cse.yorku.ca/~oz/hash.html
 Structures in C: From Basics to Memory Alignment
 https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/
+Untangling Lifetimes: The Arena Allocator
+https://www.rfleury.com/p/untangling-lifetimes-the-arena-allocator
+Arena allocator tips and tricks
+https://nullprogram.com/blog/2023/09/27/
