@@ -30,3 +30,9 @@ How fast are Linux pipes anyway?
 https://mazzo.li/posts/fast-pipes.html
 Reliably allocating huge pages in Linux
 https://mazzo.li/posts/check-huge-page.html
+Hacker News discussion on C array bound checking
+https://news.ycombinator.com/item?id=37788408
+C’s Biggest Mistake
+https://www.digitalmars.com/articles/C-biggest-mistake.html
+SO Answer: What's the point of VLA anyway?
+https://stackoverflow.com/a/54163435
